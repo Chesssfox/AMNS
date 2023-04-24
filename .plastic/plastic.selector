@@ -1,0 +1,4 @@
+repository "amns@favourrr@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
