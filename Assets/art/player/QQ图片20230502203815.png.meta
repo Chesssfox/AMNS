@@ -1,0 +1,324 @@
+fileFormatVersion: 2
+guid: 3e57c913c9ae7dc459a6762ac9e7170e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6102009371631949110
+    second: "QQ\u56FE\u724720230502203815_0"
+  - first:
+      213: 7529203464969059619
+    second: "QQ\u56FE\u724720230502203815_1"
+  - first:
+      213: -815869696893680069
+    second: "QQ\u56FE\u724720230502203815_2"
+  - first:
+      213: 489624981489952249
+    second: "QQ\u56FE\u724720230502203815_3"
+  - first:
+      213: -4800135988443229388
+    second: "QQ\u56FE\u724720230502203815_4"
+  - first:
+      213: -4157950227746715857
+    second: "QQ\u56FE\u724720230502203815_5"
+  - first:
+      213: 7048942128049855720
+    second: "QQ\u56FE\u724720230502203815_6"
+  - first:
+      213: -1826946699072981044
+    second: "QQ\u56FE\u724720230502203815_7"
+  - first:
+      213: -9047081240502167425
+    second: "QQ\u56FE\u724720230502203815_8"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_0"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1653
+        width: 220
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acae5cb6ece415ba0800000000000000
+      internalID: -6102009371631949110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_1"
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1657
+        width: 204
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dfe13f8aa1d7860800000000000000
+      internalID: 7529203464969059619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_2"
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 1677
+        width: 218
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3685a555d27da4f0800000000000000
+      internalID: -815869696893680069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_3"
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1067
+        width: 206
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5add6935f7bc600800000000000000
+      internalID: 489624981489952249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_4"
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1077
+        width: 232
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433d54f20cd726db0800000000000000
+      internalID: -4800135988443229388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_5"
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 1077
+        width: 230
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2707613c4efb46c0800000000000000
+      internalID: -4157950227746715857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_6"
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 487
+        width: 230
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec92b0c48fd2d160800000000000000
+      internalID: 7048942128049855720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_7"
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 487
+        width: 232
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7be2228a165a6e0800000000000000
+      internalID: -1826946699072981044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "QQ\u56FE\u724720230502203815_8"
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 487
+        width: 230
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7894c59b8f427280800000000000000
+      internalID: -9047081240502167425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -124,14 +124,16 @@ public class playermovement : MonoBehaviour
         jumpPressed = false;  
     }
     void FilpDirction(){
-    	if (isWalkA == true){
+        if (isWalkA == true){
             transform.localScale = new Vector2(1,1);
         }	
     	if (isWalkD == true){
+
     		transform.localScale = new Vector2(-1,1);
         }
 
     }
+
     RaycastHit2D Raycast(Vector2 offset, Vector2 rayDirection, float length, LayerMask Layer){
         Vector2 pos = transform.position;
         RaycastHit2D Hit = Physics2D.Raycast(pos+offset,rayDirection,length,Layer);
