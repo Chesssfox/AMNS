@@ -5,7 +5,7 @@ using UnityEngine;
 public class playerfire : MonoBehaviour
 {
     public Transform FirePoint;
-    public GameObject PlayerBulletPrefab;
+    public GameObject BulletPrefab;
     public float FireInterval = 0.3f;
     private float timer = 0f;
     private Animator anim;
@@ -31,8 +31,7 @@ public class playerfire : MonoBehaviour
         if(timer == 0){
             timer = FireInterval;
             anim.SetTrigger("shoot");
-            Instantiate(PlayerBulletPrefab, FirePoint.position, FirePoint.rotation);
+            Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
         }
-        
     }
 }

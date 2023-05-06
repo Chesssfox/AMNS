@@ -138,7 +138,7 @@ public class playermovement : MonoBehaviour
         Vector2 pos = transform.position;
         RaycastHit2D Hit = Physics2D.Raycast(pos+offset,rayDirection,length,Layer);
         Color color = Hit ? Color.red : Color.green;
-        Debug.DrawRay(pos+offset,rayDirection * length,color);
+        //Debug.DrawRay(pos+offset,rayDirection * length,color);
         return Hit;
     }
 

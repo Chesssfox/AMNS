@@ -15,12 +15,17 @@ public class playerbullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.Find("player");
         BulletDirection = -player.transform.localScale.x;
+        rb.velocity = new Vector2( BulletDirection* PlyaerBulletSpeed , 0f);
     }
 
-
+    private void OnTriggerEnter2D(Collider2D hitinfo) {
+        enemyhealth enemy =  hitinfo.GetComponent<enemyhealth>();
+        if(enemy !=null){
+            enemy.TakeDamage(1);
+        }
+    }
     void Update()
     {
-        rb.velocity = new Vector2( BulletDirection* PlyaerBulletSpeed , 0f);
-
+        
     }
 }
