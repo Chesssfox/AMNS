@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5428aaecc4d7c2f4ba274d9f1d73d990, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 75
+  health: 10
   death: {fileID: 0}
 --- !u!1 &899610949
 GameObject:
@@ -723,6 +723,7 @@ GameObject:
   - component: {fileID: 899610955}
   - component: {fileID: 899610956}
   - component: {fileID: 899610957}
+  - component: {fileID: 899610958}
   m_Layer: 8
   m_Name: player
   m_TagString: Untagged
@@ -918,8 +919,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FirePoint: {fileID: 1782278237}
-  BulletPrefab: {fileID: 0}
+  BulletPrefab: {fileID: 8080409550296847677, guid: a67413afab6f3964f869e1083bf4e9d1, type: 3}
   FireInterval: 0.015
+--- !u!114 &899610958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899610949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5428aaecc4d7c2f4ba274d9f1d73d990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  death: {fileID: 1952770286614151276, guid: 42a52b1738932ec45a28e7d356358fd0, type: 3}
 --- !u!1 &912318466
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,7 +976,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

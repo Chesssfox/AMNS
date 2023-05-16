@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class playeranimation : MonoBehaviour
 {
-    static Animator anim;
+    Animator anim;
     playermovement movemoent;
     private Rigidbody2D rb;
     bool isWalk;
