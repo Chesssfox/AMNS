@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  death: {fileID: 0}
+  death: {fileID: 6221775691794465678, guid: a8493762d5838d84b855d899b1dfd0b9, type: 3}
   cd: 0.05
 --- !u!95 &677950563
 Animator:
