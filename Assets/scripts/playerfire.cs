@@ -6,14 +6,13 @@ public class playerfire : MonoBehaviour
 {
     public Transform FirePoint;
     public GameObject BulletPrefab;
-    public float FireInterval = 0.3f;
+    public float FireInterval;
     private float timer = 0f;
     private Animator anim;
 
     void Awake(){
         anim = GetComponent<Animator>();
     }
-
 
     void Update()
     {

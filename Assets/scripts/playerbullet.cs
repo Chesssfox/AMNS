@@ -19,7 +19,7 @@ public class playerbullet : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D hitinfo) {
-        enemyhealth enemy =  hitinfo.GetComponent<enemyhealth>();
+        enemyhealth enemy =  hitinfo.GetComponentInParent<enemyhealth>();
         if(enemy !=null){
             enemy.TakeDamage(1);
         }
