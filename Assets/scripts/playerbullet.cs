@@ -5,6 +5,7 @@ using UnityEngine;
 public class playerbullet : MonoBehaviour
 {
     private Rigidbody2D rb;
+    private BoxCollider2D coll; 
     public float PlyaerBulletSpeed = 10f;
     private GameObject player;
     public float BulletDirection = -1f;
@@ -16,10 +17,11 @@ public class playerbullet : MonoBehaviour
         player = GameObject.Find("player");
         BulletDirection = -player.transform.localScale.x;
         rb.velocity = new Vector2( BulletDirection* PlyaerBulletSpeed , 0f);
+        coll = GetComponent<BoxCollider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D hitinfo) {
-        enemyhealth enemy =  hitinfo.GetComponentInParent<enemyhealth>();
+        enemyhealth enemy =  hitinfo.GetComponent<enemyhealth>();
         if(enemy !=null){
             enemy.TakeDamage(1);
         }
