@@ -6,12 +6,14 @@ public class enemyhealth : MonoBehaviour
 {
     public int health = 100;
     public GameObject death;
+    public bool isAlive;
     public float cd;
     private Animator anim;
     private float timer = 0;
 
     void Awake(){
         anim = GetComponent<Animator>();
+        isAlive = true;
     }
     public void TakeDamage(int damage){
         health -= damage;
@@ -38,5 +40,6 @@ public class enemyhealth : MonoBehaviour
     void Die(){
         Instantiate(death, transform.position,  Quaternion.identity);
         Destroy(gameObject);
+        isAlive = false;
     }   
 }

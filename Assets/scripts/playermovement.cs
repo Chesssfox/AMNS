@@ -6,6 +6,7 @@ public class playermovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     private BoxCollider2D coll;
+    public GameObject Shadow;
     [Header("move")]
     public float walkspeed = 8f;
     public float runspeed = 10f;
@@ -61,10 +62,12 @@ public class playermovement : MonoBehaviour
         RaycastHit2D rightfootCheck = Raycast(new Vector2(footOffset,-headDistance),Vector2.down, rayLength, groundLayer);
     	if(leftfootCheck || rightfootCheck){
     	  isOnground = true;
+          Shadow.SetActive(true);
           JumpCount = 0;
         }else {
             isOnground = false;
-        }
+            Shadow.SetActive(false);
+        }     
     }
     void GroundMovement(){    	
        if(Input.GetKeyUp(KeyCode.A)){
